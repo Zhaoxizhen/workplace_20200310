@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/eo_sign_up_root" android:background="@drawable/eo_corners_bg" android:layout_width="300.0dip" android:layout_height="250.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="25.0">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="77.0" />
+            <ImageView android:id="@id/eo_sign_up_back_btn" android:background="@drawable/eo_back_btn_selected" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="109.0" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="77.0" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="17.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="225.0">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="22.0" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="22.0">
+                <ImageView android:id="@id/eo_sign_logo" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/eo_sign_up_logo" android:layout_weight="76.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="180.0" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="26.0" />
+            <LinearLayout android:background="@drawable/eo_edit_text_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="31.0">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" />
+                <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/eo_email" android:layout_weight="20.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" />
+                <EditText android:textSize="14.0sp" android:textColor="@color/eo_black" android:textColorHint="@color/eo_hight_gray_color" android:id="@id/eo_register_email_et" android:background="@color/eo_transparent" android:nextFocusDown="@id/eo_register_pwd_et" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/eo_email_hint" android:maxLines="1" android:layout_weight="190.0" android:inputType="textEmailAddress" android:imeOptions="actionNext" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="15.0" />
+            <LinearLayout android:background="@drawable/eo_edit_text_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="31.0">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" />
+                <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/eo_pwd" android:layout_weight="20.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" />
+                <EditText android:textSize="14.0sp" android:textColor="@color/eo_black" android:textColorHint="@color/eo_hight_gray_color" android:id="@id/eo_register_pwd_et" android:background="@color/eo_transparent" android:nextFocusDown="@id/eo_register_re_pwd_et" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/eo_pwd_hint" android:maxLines="1" android:password="true" android:layout_weight="190.0" android:imeOptions="actionNext" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="15.0" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/eo_edit_text_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="31.0">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" />
+                <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/eo_re_pwd" android:layout_weight="20.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" />
+                <EditText android:textSize="14.0sp" android:textColor="@color/eo_black" android:textColorHint="@color/eo_hight_gray_color" android:id="@id/eo_register_re_pwd_et" android:background="@color/eo_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/eo_re_pwd_text" android:maxLines="1" android:password="true" android:layout_weight="190.0" android:imeOptions="actionDone" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="20.0" />
+            <Button android:textSize="15.0sp" android:textColor="@color/eo_white" android:id="@id/eo_sign_up_btn" android:background="@drawable/eo_login_btn_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/eo_sign_up" android:layout_weight="31.0" android:layout_centerHorizontal="true" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="18.0" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="35.0" />
+    </LinearLayout>
+</LinearLayout>

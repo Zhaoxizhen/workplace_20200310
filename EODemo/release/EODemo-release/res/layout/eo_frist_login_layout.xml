@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/eo_frist_login_root" android:background="@drawable/eo_corners_bg" android:layout_width="345.0dip" android:layout_height="283.0dip">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.0" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="24.0">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="68.0" />
+            <ImageView android:id="@id/imageView" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/eo_logo" android:layout_weight="109.0" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="68.0" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="30.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="32.0">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="40.0" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/eo_email_field" android:background="@drawable/eo_edit_text_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="265.0">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" />
+                <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/eo_email" android:layout_weight="20.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" />
+                <EditText android:textSize="14.0sp" android:textColor="@color/eo_black" android:textColorHint="@color/eo_hight_gray_color" android:id="@id/eo_login_username_et" android:background="@color/eo_transparent" android:nextFocusDown="@id/eo_login_password_et" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/eo_email_hint" android:maxLines="1" android:layout_weight="230.0" android:inputType="textEmailAddress" android:imeOptions="actionNext" />
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="40.0" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="9.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="31.0">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="40.0" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/eo_pwd_field" android:background="@drawable/eo_edit_text_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="265.0">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" />
+                <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/eo_pwd" android:layout_weight="20.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" />
+                <EditText android:textSize="14.0sp" android:textColor="@color/eo_black" android:textColorHint="@color/eo_hight_gray_color" android:id="@id/eo_login_password_et" android:background="@color/eo_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/eo_pwd_hint" android:maxLines="1" android:password="true" android:layout_weight="210.0" android:imeOptions="actionDone" />
+                <CheckBox android:layout_gravity="center|left" android:id="@id/eo_pwd_eyes_btn" android:background="@drawable/eo_eyes_close_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:layout_weight="20.0" />
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="40.0" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="9.0" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="31.0">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="40.0" />
+            <Button android:textSize="15.0sp" android:textColor="@color/eo_white" android:id="@id/eo_login_btn" android:background="@drawable/eo_login_btn_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/eo_login" android:layout_weight="256.0" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="40.0" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/eo_fist_login_bottom_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="72.0">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="24.0" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="33.0">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="17.0" />
+                <Button android:id="@id/eo_login_fb_btn" android:background="@drawable/eo_facebook_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="99.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="8.0" />
+                <Button android:id="@id/eo_login_guest_btn" android:background="@drawable/eo_guest_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_weight="99.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="8.0" />
+                <Button android:id="@id/eo_login_register_btn" android:background="@drawable/eo_sign_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="99.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="17.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="26.0">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="215.0" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="93.0">
+                    <Button android:textSize="10.0sp" android:textStyle="italic" android:textColor="@color/eo_hight_gray_color" android:id="@id/eo_login_forget_btn" android:background="@color/eo_transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/eo_forget_password" android:layout_weight="20.0" />
+                    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0" />
+                </LinearLayout>
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="20.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

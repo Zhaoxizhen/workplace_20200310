@@ -1,0 +1,114 @@
+<resources>
+    <string name="eo_login">Login</string>
+    <string name="eo_email_hint">Enter an email address</string>
+    <string name="eo_pwd_hint">Password</string>
+    <string name="eo_login_customer_service">Contact Service</string>
+    <string name="eo_forget_password">FORGET PASSWORD</string>
+    <string name="eo_tips_guest_text">To safeguard the progress in the game, please link this account to your phone or email</string>
+    <string name="eo_error_login_password_empty">Create a password</string>
+    <string name="eo_error_login_password_error">Password incorrect</string>
+    <string name="eo_error_login_username_invalid">The account doesn\'t exist</string>
+    <string name="eo_sign_up">Sign up</string>
+    <string name="eo_re_pwd_text">Confirm your password</string>
+    <string name="eo_email_error">The account doesn\'t exist</string>
+    <string name="eo_pwd_error">Invalid password, Must be 6-20 characters including letters and numbers</string>
+    <string name="eo_error_regist_pwd_no_some">Confirm password is wrong</string>
+    <string name="eo_reset_email_success">A password reset email is sent to your email address, please create a new password in it.</string>
+    
+    <string name="eo_bind">Account linking </string>
+    <string name="eo_othre_login">Login with other account</string>
+    <string name="eo_switch">Swich account </string>
+    <string name="eo_loading">Loading</string>
+    <string name="eo_no_install_email">Please install a mail app so to receive our emails.</string>
+    <string name="eo_send_email">Reset password</string>
+    <string name="eo_server_name">Server</string>
+    <string name="eo_role_name">Character name </string>
+    <string name="eo_role_level">Character Level</string>
+    <string name="eo_account_name">Account</string>
+    <string name="eo_pay_method">Select payment method</string>
+    <string name="eo_pay_tip_inpayinging">Paying </string>
+    <string name="eo_pay_google_re_pay">Order is not completed, processing now</string>
+    <string name="eo_pay_google_init_fail">Please confirm payment on google play is supported on your phone</string>
+    <string name="eo_pay_google_no_init">Enable google play service failed </string>
+    <string name="eo_pay_tip_no_web_pay">Web page payment method is not enabled</string>
+    <string name="eo_customer_service_text">Customer service email</string>
+    <string name="eo_cs_tip_text">Feel free to contact us if you have questions</string>
+    <string name="eo_customer_service">Customer Service Centre </string>
+    <string name="eo_login_loading_tip">Nice reminder</string>
+    <string name="eo_layout_tip_cancel">Cancel</string>
+    
+    <string name="eo_layout_tip_goto">Goto</string>
+    <string name="eo_layout_tip_open_wifi">Open WIFI</string>
+    <string name="eo_layout_tip_goto_setting">Go to</string>
+    <string name="eo_layout_tip_conitune">Continue</string>
+    <string name="eo_tip">Tip</string>
+    <string name="eo_voucher_center">Voucher Center</string>
+    <string name="eo_select_pay_info">Please Select Purchase Info</string>
+    <string name="eo_confirm_purchase">Confirm Purchase</string>
+
+    <!-- 支付渠道相关 -->
+
+    <string name="eo_payChannel_code_Google" translatable="false">7</string>
+    <string name="eo_payChannel_name_Google" translatable="false">Google</string>
+    <string name="eo_payChannel_code_MyCard" translatable="false">4</string>
+    <string name="eo_payChannel_name_MyCard" translatable="false">MyCard</string>
+    <string name="eo_payChannel_code_Razer_Pin" translatable="false">5</string>
+    <string name="eo_payChannel_name_Razer_Pin" translatable="false">Razer Pin</string>
+    <string name="eo_payChannel_code_Razer_Wallet" translatable="false">6</string>
+    <string name="eo_payChannel_name_Razer_Wallet" translatable="false">Razer Wallet</string>
+    <string name="eo_payChannel_code_Xsolla" translatable="false">9</string>
+    <string name="eo_payChannel_name_Xsolla" translatable="false">Xsolla</string>
+    <string name="eo_payChannel_code_Codapay" translatable="false">8</string>
+    <string name="eo_payChannel_name_Codapay" translatable="false">Codapay</string>
+
+    <string-array name="eo_pay_area">
+        <item>Please select your area</item>
+        <item>Hong Kong</item>
+        <item>Taiwan</item>
+        <item>Singapore</item>
+        <item>Malaysia</item>
+        <item>Indonesia</item>
+    </string-array>
+    <string-array name="eo_pay_currencyCode">
+        <item>hkd</item>
+        <item>twd</item>
+        <item>sgd</item>
+        <item>myr</item>
+        <item>idr</item>
+    </string-array>
+    <string-array name="eo_pay_channel_Hongkong">
+        <item>MyCard</item>
+        <item>Razer Pin</item>
+        <item>Razer Wallet</item>
+    </string-array>
+    <string-array name="eo_pay_channel_Taiwan">
+        <item>MyCard</item>
+        <item>Xsolla</item>
+    </string-array>
+    <string-array name="eo_pay_channel_Singapore">
+        <item>Razer Pin</item>
+        <item>Razer Wallet</item>
+        <item>Codapay</item>
+    </string-array>
+    <string-array name="eo_pay_channel_Malaysia">
+        <item>Razer Pin</item>
+        <item>Razer Wallet</item>
+    </string-array>
+    <string-array name="eo_pay_channel_Indonesia">
+        <item>Codapay</item>
+    </string-array>
+
+    <!-- //6.0及以上系统权限相关 -->
+    <string name="eo_tips_permission_title">Permission request</string>
+    <string name="eo_tips_permission_cancel">No</string>
+    <string name="eo_tips_permission_confirm">Yes</string>
+    <string name="eo_tips_permission_content">In-game floating icon needs permission on your device</string>
+    <string name="eo_user_denied_permission">Initialization failed, permission denied</string>
+    <string name="eo_layout_tip_title">Loading </string>
+    <string name="eo_error_json">Data error </string>
+    <string name="eo_error_net_timeout">The request timed out </string>
+    <string name="eo_error_net_exception">Network error</string>
+    <string name="eo_error_net_certificate_expired">Access error </string>
+    <string name="eo_error_sys_exception">System error </string>
+    <string name="eo_error_unkonw_exception">Unknow error </string>
+</resources>

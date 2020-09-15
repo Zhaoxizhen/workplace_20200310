@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <WebView
+        android:id="@+id/eo_layout_webview_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" />
+
+
+    <ProgressBar
+        android:id="@+id/eo_webview_pb"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="5dp"
+        android:minHeight="5dp"
+        android:visibility="invisible"
+        android:progressDrawable="@drawable/eo_progress_horizontal" />
+
+    <TextView
+        android:id="@+id/eo_webview_payInfoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:text="payInfo" />
+
+</FrameLayout>

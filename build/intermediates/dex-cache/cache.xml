@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\workplace\FacebookCore-4.27.0\build\intermediates\bundles\default\libs\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="f8efeacd32828c671d2eb25772ca4f21b50c014f">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_5f10765536725e7c58b417624bf9c20de0f03df3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\AndroidSupport-V4-26.0.0\build\intermediates\bundles\default\libs\support-compact-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="ff80abe59a4e789d352be484528d4defdff99d9d">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\support-compact-26.0.0-alpha1_afdf97d25cb57ff1e477774ac625c1d19fa948fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\FacebookCore-4.27.0\build\intermediates\bundles\default\libs\facebook-places-4.27.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="06920e9a2e2e89f4d6a210f779147b8079a06b62">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\facebook-places-4.27.0_87d4242043ca4f3fe90bf1e43f3d53bd9a632882.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\EO-GameSDK\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="3b2fa7fdd3ddd98f8c7cf3597de7a236630d1ecb">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\classes_289754a5dc1143f8488250940a755f869d46f2f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\AndroidSupport-V4-26.0.0\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="08557d38d0efb8faed1240839b93c6b98617a06d">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\classes_7fac85e8a6bd0cdfd288e5ac56ffe4da61f6d958.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\FacebookCore-4.27.0\build\intermediates\bundles\default\libs\facebook-messenger-4.27.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="472a1b62850483964946ecdff409791fab45d704">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\facebook-messenger-4.27.0_88af8318f4f0f5dd5fa9c07a043756d3d47a2f1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\EO-GameSDK\build\intermediates\bundles\default\libs\org.apache.http.legacy.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="c8b30cc50ebafca34f109e7f52e6c1f0768f0b19">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\org.apache.http.legacy_86072073dad953263f16e39ea2a908cd97d03a8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\FacebookCore-4.27.0\build\intermediates\bundles\default\libs\facebook-android-sdk-4.27.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="687a4741cef0f79113cf3f8f1ed3b19f122e36d7">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\facebook-android-sdk-4.27.0_492a8c5fc28df4a2911e785775bc32c364d2f4bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\FacebookLogin-4.27.0\build\intermediates\bundles\default\libs\facebook-login-4.27.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="abe81001393bfc5358dfa0d4a7ce3da329554cac">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\facebook-login-4.27.0_2691a5a02d8b00393b95dff0a9e817ddfbf0d2c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\FacebookCore-4.27.0\build\intermediates\bundles\default\libs\facebook-applinks-4.27.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="43ce80575f87ca7469c7e68b755f6e3d8bebc81b">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\facebook-applinks-4.27.0_0e4de58e7701667028b48549baa8554c818b69c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\AndroidSupport-V4-26.0.0\build\intermediates\bundles\default\libs\support-core-ui-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="8e607fcce2db0c50d52c2638633679b6d73cbd7c">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\support-core-ui-26.0.0-alpha1_0c5f14ce824ab805e7085b0a8c5281ee7efefedc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\EO-GameSDK\build\intermediates\bundles\default\libs\AF-Android-SDK.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="754ce41b90dd93bb435095af9b10a00513972516">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\AF-Android-SDK_1b0a11b494e0aa5542c7ddd783c5ef5eee0119e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\FacebookCore-4.27.0\build\intermediates\bundles\default\libs\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="72eca91b50b6732d9d55961b4bc3f2e5ae9fafb1">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_bb3327663bfc3dd63857b4f512d3a511c65fd194.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\FacebookCore-4.27.0\build\intermediates\bundles\default\libs\facebook-share-4.27.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="bbb05a63bfc14973084bdfbdaafa647144627802">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\facebook-share-4.27.0_e36bf80341ecb9fee09051c9e198c359c35f12b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\AndroidSupport-V4-26.0.0\build\intermediates\bundles\default\libs\support-fragment-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="1f51e789ea5c9086837c7a1d885238b0465f2b34">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\support-fragment-26.0.0-alpha1_b92cffc0aecc74e32a09e3c0965381c3886a7098.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\FacebookCore-4.27.0\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="cdea86152354b1f29ade7579fc2246a06b84c350">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\classes_a56620168c1a21cf836d96167f94cd6506b9ae5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\appcompat-v7\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="a90524b4b573a90b2ccfde672cf94fa5b3cb3f56">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\classes_736e32bd289e813f25bb334e5a9f372dd9bf11c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\FacebookCore-4.27.0\build\intermediates\bundles\default\libs\facebook-comom-4.27.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="eac7551010f82b4acafa74aec4af07a5f7dd06dc">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\facebook-comom-4.27.0_811d9506112b3c8875598a39ac532397099fdb62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\FacebookCore-4.27.0\build\intermediates\bundles\default\libs\customtabs-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="6fcdeafb598294dfc8048e805089a82d722f9823">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\customtabs-25.3.1_dfaa636da8f76816da323f5eb95f10d6f630c68f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\AndroidSupport-V4-26.0.0\build\intermediates\bundles\default\libs\support-v4-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="5885afd4c2b230a63d49426bbd1f563eb0a36b09">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\support-v4-26.0.0-alpha1_fe0199bf9cf93991ddc2c06b455ab58d5250e13e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\FacebookCore-4.27.0\build\intermediates\bundles\default\libs\cardview-v7-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="6564f6966b1c3aa99b350158b70ec3b2a47c93f9">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\cardview-v7-25.3.1_3d9d4fa2290d4c870c301bd00773b6ba0613d37e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\AndroidSupport-V4-26.0.0\build\intermediates\bundles\default\libs\support-core-util-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="fdfe5ad0254c49ad29046eddb4e6dad55a5d326f">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\support-core-util-26.0.0-alpha1_bade7dc123bab35d44e9dacd6c876e804170a6c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\FacebookCore-4.27.0\build\intermediates\bundles\default\libs\facebook-core-4.27.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="a747a30f6a8d50bce1a7a2002ccc609fff013fd4">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\facebook-core-4.27.0_b0075fb8f345e049ec0a245fb69f4fd6e45ab448.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\AndroidSupport-V4-26.0.0\build\intermediates\bundles\default\libs\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="ee8b3b1f1582cd75cf15fc60e4b2e1cae0ad014a">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_47f31358660b00aefb8350c6ad055a9ae39bd7cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workplace\FacebookLogin-4.27.0\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.3"
+        sha1="39002c08668b861cf221066ca9fc4a50d25b5677">
+        <dex dex="D:\workplace\EODemo\build\intermediates\pre-dexed\debug\classes_3d3bfc8c3d1f23baf2b6e426315f11632a492d0e.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/eo_pay_channel_root" android:background="@drawable/eo_corners_bg" android:layout_width="270.0dip" android:layout_height="250.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="42.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="41.0">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="240.0">
+                    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="20.0" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="21.0">
+                        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="25.0" />
+                        <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/eo_user_center_logo" android:layout_weight="100.0" />
+                        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="110.0" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="32.0">
+                    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0" />
+                    <ImageView android:id="@id/eo_pay_close_btn" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/eo_close" android:layout_weight="20.0" />
+                    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="15.0" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="20.0">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="25.0" />
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/eo_hight_gray_color" android:gravity="center|left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/eo_role_name" android:layout_weight="68.0" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="15.0" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/eo_name_gray_color" android:gravity="center|left" android:id="@id/eo_pay_role_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="测试角色01" android:maxLines="1" android:layout_weight="176.0" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="20.0">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="25.0" />
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/eo_hight_gray_color" android:gravity="center|left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/eo_account_name" android:layout_weight="68.0" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="15.0" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/eo_name_gray_color" android:id="@id/eo_pay_account_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="FB98765432132343" android:maxLines="1" android:layout_weight="176.0" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="15.0" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/eo_pay_bottom_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="142.0">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="17.0" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="28.0" />
+                <View android:background="@color/eo_black" android:layout_width="0.0dip" android:layout_height="1.5px" android:layout_weight="55.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="10.0" />
+                <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/eo_payment" android:layout_weight="88.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="10.0" />
+                <View android:background="@color/eo_black" android:layout_width="0.0dip" android:layout_height="1.5px" android:layout_weight="55.0" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="28.0" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="23.0" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="85.0">
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="81.0" />
+                <LinearLayout android:orientation="vertical" android:id="@id/eo_pay_google_ll" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="47.0">
+                    <ImageView android:clickable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/eo_google_pay_icon" android:layout_weight="47.0" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/eo_name_gray_color" android:gravity="center" android:clickable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="Google Wallet" android:layout_weight="38.0" />
+                </LinearLayout>
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="15.0" />
+                <LinearLayout android:orientation="vertical" android:id="@id/eo_pay_other_ll" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="47.0">
+                    <ImageView android:clickable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/eo_other_pay_icon" android:layout_weight="47.0" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/eo_name_gray_color" android:gravity="center" android:clickable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="MyCard" android:layout_weight="38.0" />
+                </LinearLayout>
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="81.0" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

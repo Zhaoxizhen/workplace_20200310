@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Aug 21 10:30:10 CST 2020
+0.baseType=DIRECTORY
+0.base=D\:\\workplace_20200310\\EODemo\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
+0.path=classes.dex
+0.set=DEX
+count=1

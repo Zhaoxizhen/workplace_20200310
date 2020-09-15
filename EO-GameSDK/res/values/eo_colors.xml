@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="eo_white">#FFFFFF</color>
+    <color name="eo_login_buttons_group_color">#F5EFEC</color>
+    <color name="eo_switch_text_color">#7B7879</color>
+    <color name="eo_hight_gray_color">#626262</color>
+    <color name="eo_name_gray_color">#929292</color>
+    <color name="eo_black">#000000</color>
+    <color name="eo_red">#ffff4444</color>
+    <color name="eo_transparent">#00000000</color>
+    <color name="eo_common_bg">#ffffffff</color>
+    <color name="eo_light_gray">#E6E6E6</color>
+
+    <!-- orange theme color-->
+    <color name="primary">#FF5722</color>
+    <color name="primary_dark">#E64A19</color>
+    <color name="primary_light">#FFCCBC</color>
+    <color name="accent">#65DAFF</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+</resources>

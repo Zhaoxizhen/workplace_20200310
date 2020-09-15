@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/af_regist_phone_code_root"
+        android:layout_width="320dp"
+        android:layout_height="216dp"
+        android:background="@color/eo_white"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20" />
+
+        <TextView
+            android:id="@+id/eo_layout_tips_titile"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:text="@string/eo_tip"
+            android:textColor="@color/eo_black"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="145"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="362"
+                android:orientation="vertical" >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/eo_hight_gray_color" />
+
+                <TextView
+                    android:id="@+id/eo_tips_tipbody_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/eo_tips_guest_text"
+                    android:textColor="@color/eo_black"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/eo_layout_tips_line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/eo_name_gray_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="70" >
+
+            <Button
+                android:id="@+id/eo_tips_cancel_bt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/eo_layout_tip_cancel"
+                android:textSize="15sp" />
+
+            <View
+                android:id="@+id/eo_tips_divisionbtn_vw"
+                android:layout_width="1px"
+                android:layout_height="match_parent" 
+                android:visibility="gone"
+                android:background="@color/eo_hight_gray_color"
+                />
+
+            <Button
+                android:id="@+id/eo_tips_continue_bt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/eo_layout_tip_conitune"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

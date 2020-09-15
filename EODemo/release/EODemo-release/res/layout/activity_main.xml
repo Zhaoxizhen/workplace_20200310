@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/eo_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/page_main_ll_main" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_centerVertical="true">
+        <Button android:textSize="12.0dip" android:layout_gravity="center_horizontal" android:id="@id/page_main_btn_init" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="init" />
+        <Button android:textSize="12.0dip" android:layout_gravity="center_horizontal" android:id="@id/page_main_btn_update" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="更新" />
+        <Button android:textSize="12.0dip" android:layout_gravity="center_horizontal" android:id="@id/page_main_btn_login" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="登录" />
+        <Button android:textSize="12.0dip" android:layout_gravity="center_horizontal" android:id="@id/page_main_btn_pay" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="支付" />
+        <Button android:textSize="12.0dip" android:layout_gravity="center_horizontal" android:id="@id/page_main_btn_logout" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="登出" />
+        <Button android:textSize="12.0dip" android:layout_gravity="center_horizontal" android:id="@id/page_main_btn_open_user" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="打开用户中心" />
+        <Button android:textSize="12.0dip" android:layout_gravity="center_horizontal" android:id="@id/page_main_btn_exit" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="退出" />
+        <Button android:textSize="12.0dip" android:layout_gravity="center_horizontal" android:id="@id/page_main_btn_close" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="wrap_content" android:text="关闭" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="150.0dip" android:layout_centerVertical="true">
+        <Button android:textSize="12.0dip" android:layout_gravity="center_horizontal" android:id="@id/page_main_btn_entry_game_log" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="提交进入游戏日志" />
+        <Button android:textSize="12.0dip" android:layout_gravity="center_horizontal" android:id="@id/page_main_btn_create_role_log" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="提交创角日志" />
+        <Button android:textSize="12.0dip" android:layout_gravity="center_horizontal" android:id="@id/page_main_btn_get_userinfo" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="获取facebook好友信息" />
+        <Button android:textSize="12.0dip" android:layout_gravity="center_horizontal" android:id="@id/page_main_btn_share" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="facebook分享" />
+        <Button android:textSize="12.0dip" android:layout_gravity="center_horizontal" android:id="@id/page_main_btn_language" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="中文" />
+    </LinearLayout>
+</RelativeLayout>

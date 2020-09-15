@@ -1,0 +1,66 @@
+apply plugin: 'com.android.library'
+//apply plugin: 'com.android.application'
+//apply plugin: 'com.google.gms.google-services'
+//googleServices.disableVersionCheck = true
+
+repositories {
+    flatDir{
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: '*.jar')
+    implementation("com.facebook.android:facebook-android-sdk:4.42.0") {
+        //exclude module: 'support-v4'
+    }
+    implementation 'com.google.crypto.tink:tink-android:1.4.0-rc1'
+//    implementation ("com.google.android.gms:play-services-wallet:18.0.0"){
+//        exclude module: 'support-v4'
+//    }
+//    implementation files('E:\\download\\appcompat-v7-26.0.0-sources.jar')
+//    implementation files('E:\\download\\support-v4-26.0.0-sources.jar')
+//    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation files('libs\\MyCardPaySDK.jar')
+    implementation files('libs\\tracker-3.7.3.aar')
+    implementation files('libs\\tracker-network-3.7.3.aar')
+//    implementation 'com.android.support:support-v4:26.0.0'
+//    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+//    implementation 'com.google.firebase:firebase-core:17.0.0'
+//    implementation 'com.google.firebase:firebase-messaging:20.0.0'
+
+}
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+    defaultConfig{
+        minSdkVersion 16
+        targetSdkVersion 28
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+
+        // Move the tests to tests/java, tests/res, etc...
+        androidTest.setRoot('tests')
+
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+}

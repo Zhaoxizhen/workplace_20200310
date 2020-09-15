@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/eo_cs_layout_root" android:background="@drawable/eo_corners_bg" android:layout_width="270.0dip" android:layout_height="200.0dip">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="7.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="36.0">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="70.0" />
+            <ImageView android:id="@id/eo_logo" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/eo_logo" android:layout_weight="125.0" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="43.0" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="32.0">
+                <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0" />
+                <ImageView android:id="@id/eo_cs_close_btn" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/eo_close" android:layout_weight="20.0" />
+                <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="11.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="7.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="11.0">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="80.0" />
+            <TextView android:textSize="9.0sp" android:textColor="@color/eo_black" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/eo_customer_service_text" android:layout_weight="110.0" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="80.0" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="25.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/eo_cs_email_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="20.0">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="30.0" />
+            <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/eo_email" android:layout_weight="20.0" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="20.0" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/eo_name_gray_color" android:gravity="center_vertical" android:id="@id/eo_cs_email_textview" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="sgservice88@gmail.com" android:maxLines="1" android:layout_weight="170.0" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="30.0" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/eo_cs_fb_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="20.0">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="30.0" />
+            <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/eo_facebook_icon" android:layout_weight="20.0" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="20.0" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/eo_name_gray_color" android:gravity="center_vertical" android:id="@id/eo_cs_fb_textview" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="sgservice88@gmail.com" android:maxLines="1" android:layout_weight="170.0" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="30.0" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="25.0" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/eo_cs_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="44.0">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.0" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/eo_white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/eo_cs_tip_text" android:layout_weight="36.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/eo_sign_up_root"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:background="@drawable/eo_corners_bg"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:orientation="vertical">
+            <!--返回按钮-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="77" />
+
+            <ImageView
+                android:id="@+id/eo_sign_up_back_btn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="109"
+                android:clickable="true"
+                android:background="@drawable/eo_back_btn_selected" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="77" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="17" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="225"
+            android:orientation="vertical">
+            <!--内容界面-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="22" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="22"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/eo_sign_logo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="76"
+                    android:src="@drawable/eo_sign_up_logo" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="180" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="26" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/eo_edit_text_bg"
+                android:layout_weight="31">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:src="@drawable/eo_email" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5" />
+
+                <EditText
+                    android:id="@+id/eo_register_email_et"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="190"
+                    android:background="@color/eo_transparent"
+                    android:hint="@string/eo_email_hint"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:textColor="@color/eo_black"
+                    android:textColorHint="@color/eo_hight_gray_color"
+                    android:imeOptions="actionNext"
+                    android:nextFocusDown="@+id/eo_register_pwd_et"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/eo_edit_text_bg"
+                android:layout_weight="31">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:src="@drawable/eo_pwd" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5" />
+
+                <EditText
+                    android:id="@+id/eo_register_pwd_et"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="190"
+                    android:background="@color/eo_transparent"
+                    android:hint="@string/eo_pwd_hint"
+                    android:maxLines="1"
+                    android:password="true"
+                    android:textColor="@color/eo_black"
+                    android:textColorHint="@color/eo_hight_gray_color"
+                    android:imeOptions="actionNext"
+                    android:nextFocusDown="@+id/eo_register_re_pwd_et"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="15" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="31"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+				android:background="@drawable/eo_edit_text_bg"
+                >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:src="@drawable/eo_re_pwd" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5" />
+
+                <EditText
+                    android:id="@+id/eo_register_re_pwd_et"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="190"
+                    android:background="@color/eo_transparent"
+                    android:hint="@string/eo_re_pwd_text"
+                    android:maxLines="1"
+                    android:password="true"
+                    android:textColor="@color/eo_black"
+                    android:textColorHint="@color/eo_hight_gray_color"
+                    android:imeOptions="actionDone"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="20" />
+
+            <Button
+                android:id="@+id/eo_sign_up_btn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="31"
+                android:background="@drawable/eo_login_btn_bg"
+                android:text="@string/eo_sign_up"
+                android:textColor="@color/eo_white"
+                android:textSize="15sp">
+
+            </Button>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="18" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="35" />
+
+    </LinearLayout>
+
+</LinearLayout>

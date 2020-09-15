@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./EO-GameSDK/libs/AF-Android-SDK.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/EO-GameSDK/libs/AF-Android-SDK.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

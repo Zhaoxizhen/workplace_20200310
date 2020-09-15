@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.mdwsw.mycard" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="tw.com.mycard.sdk.libs.PSDKApplication" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
+        <activity android:name="com.eogame.other.mdwsw.PageDemo" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:configChanges="keyboardHidden|orientation|screenSize" android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenSize|uiMode" android:name="com.eogame.activity.EOAccountActivity" android:screenOrientation="landscape" android:theme="@style/EO_Theme_dialog"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenSize|uiMode" android:launchMode="singleTop" android:name="com.eogame.activity.EOPayActivity" android:screenOrientation="landscape" android:theme="@style/EO_Theme_dialog"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenSize|uiMode" android:launchMode="singleTop" android:name="com.eogame.activity.EOUserCenterActivity" android:screenOrientation="landscape" android:theme="@style/EO_Theme_dialog"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenSize|uiMode" android:launchMode="singleTop" android:name="com.eogame.activity.EOWebViewActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenSize|uiMode" android:launchMode="singleTop" android:name="com.eogame.activity.EOWebPayActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="fontScale|keyboardHidden|locale|navigation|orientation|screenSize|uiMode" android:launchMode="singleTop" android:name="com.eogame.activity.EOWebBrowserActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:name="tw.com.mycard.paymentsdk.PSDKActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="tw.com.mycard.paymentsdk.https.WebViewActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="billing" android:scheme="webviewinsdk"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.google.zxing.CaptureActivity" android:screenOrientation="portrait"/>
+        <activity android:name="soft_world.mycard.paymentapp.ui.SplashActivity" android:screenOrientation="portrait"/>
+        <activity android:name="soft_world.mycard.paymentapp.ui.MainActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="soft_world.mycard.paymentapp.ui.TrainActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="soft_world.mycard.paymentapp.ui.billing.BillingWebViewActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="billing" android:scheme="mycardsdkbrowser"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.fet.iap.activity.FetLoginActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.CustomTabMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/fb_login_protocol_scheme"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="true" android:name="com.appsflyer.MultipleInstallBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.kochava.base.ReferralReceiver" android:priority="999">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.mdwsw.mycard.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

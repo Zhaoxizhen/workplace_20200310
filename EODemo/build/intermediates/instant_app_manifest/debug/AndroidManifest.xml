@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eohfun.other.demo"
+    android:targetSandboxVersion="2"
+    android:versionCode="28"
+    android:versionName="28" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <!-- google 支付权限 -->
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <!-- kochava权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!--
+<uses-sdk android:minSdkVersion="15"
+        android:targetSdkVersion="26"
+        />
+    -->
+    <!--
+   android:name="tw.com.mycard.sdk.libs.PSDKApplication"
+            android:name="com.eogame.application.EOApplication"
+    -->
+    <application
+        android:name="tw.com.mycard.sdk.libs.PSDKApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.eogame.other.mdwsw.PageDemo"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:configChanges="orientation|keyboardHidden|screenSize" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <!-- <activity -->
+        <!-- android:name="com.eogame.activity.EOAccountActivity" -->
+        <!-- android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode" -->
+        <!-- android:screenOrientation="landscape" -->
+        <!-- android:theme="@style/EO_Theme_dialog" /> -->
+
+
+        <!-- <activity -->
+        <!-- android:name="com.eogame.activity.EOPayActivity" -->
+        <!-- android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode" -->
+        <!-- android:launchMode="singleTop" -->
+        <!-- android:screenOrientation="landscape" -->
+        <!-- android:theme="@style/EO_Theme_dialog" /> -->
+        <!-- <activity -->
+        <!-- android:name="com.eogame.activity.EOUserCenterActivity" -->
+        <!-- android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode" -->
+        <!-- android:launchMode="singleTop" -->
+        <!-- android:screenOrientation="landscape" -->
+        <!-- android:theme="@style/EO_Theme_dialog" /> -->
+        <!-- <activity -->
+        <!-- android:name="com.eogame.activity.EOWebViewActivity" -->
+        <!-- android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode" -->
+        <!-- android:launchMode="singleTop" -->
+        <!-- android:screenOrientation="landscape" -->
+        <!-- android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" /> -->
+
+        <service
+            android:name="com.eogame.other.mdwsw.MyFirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.eogame.activity.EOAccountActivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:screenOrientation="landscape"
+            android:theme="@style/EO_Theme_dialog" />
+        <activity
+            android:name="com.eogame.activity.EOPayActivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/EO_Theme_dialog" />
+        <activity
+            android:name="com.eogame.activity.EOUserCenterActivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/EO_Theme_dialog" />
+        <activity
+            android:name="com.eogame.activity.EOWebViewActivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.eogame.activity.EOWebPayActivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.eogame.activity.EOWebBrowserActivity"
+            android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" /> <!-- <activity android:name="com.facebook.FacebookActivity" /> -->
+        <!-- MyCardSDK -->
+        <activity
+            android:name="tw.com.mycard.paymentsdk.PSDKActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="tw.com.mycard.paymentsdk.https.WebViewActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="billing"
+                    android:scheme="webviewinsdk" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.zxing.CaptureActivity"
+            android:screenOrientation="portrait" /> <!-- PaymentApp -->
+        <activity
+            android:name="soft_world.mycard.paymentapp.ui.SplashActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="soft_world.mycard.paymentapp.ui.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="soft_world.mycard.paymentapp.ui.TrainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="soft_world.mycard.paymentapp.ui.billing.BillingWebViewActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="billing"
+                    android:scheme="mycardsdkbrowser" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fet.iap.activity.FetLoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="adjustPan" /> <!-- MyCardSDK end -->
+        <!-- facebook 相关界面配置 -->
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/com_facebook_activity_theme" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.CustomTabMainActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity> <!-- appfly receiv 安装监听 -->
+        <receiver
+            android:name="com.appsflyer.MultipleInstallBroadcastReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <!--
+        KochavaTracker: Optional: Included automatically. If you are using a forwarder for multiple INSTALL_REFERRER Broadcast Receivers
+        you must remove it.
+
+            <receiver
+                tools:node="remove"
+                android:name="com.kochava.base.ReferralReceiver">
+            </receiver>
+
+            View the reference documentation for "ReferralReceiver" for more information.
+        -->
+        <receiver
+            android:name="com.kochava.base.ReferralReceiver"
+            android:exported="true"
+            android:priority="999" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.eohfun.other.demo.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="com.eohfun.other.demo.FacebookInitProvider"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

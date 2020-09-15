@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">EOSDK</string>
+
+    <!-- 是否为测试模式 测试环境为true 正式环境为false-->
+    <string name="is_debug" translatable="false">true</string>
+
+    <!-- Facebook的APPID -->
+    <string name="facebook_app_id" translatable="false">568176173959889</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb568176173959889</string>
+
+    <string name="kochava_app_guid" translatable="false">komdwsw-o76</string>
+
+    <!-- Facebook分享的url -->
+    <string name="eo_fb_share_url" translatable="false">http://www.eohfun.com/download.html
+</string>
+
+    <!-- 是否使用google充值渠道-->
+    <string name="eo_payChannel" translatable="false">Other</string>
+
+    <!-- MyCard 厂商key -->
+    <string name="eo_MyCard_key" translatable="false">35724698d433d5e23077eb03fc66890e</string>
+
+    <string name="eo_appflyer_key" translatable="false">dZCdrjF7JSVR89zL4oym2n</string>
+
+    <!-- 币种代码 -->
+    <string name="eo_currency_code_Taiwan" translatable="false">TWD</string>
+    <string name="eo_currency_code_Hongkong" translatable="false">HKD</string>
+    <string name="eo_currency_code_Singapore" translatable="false">SGD</string>
+    <string name="eo_currency_code_Malaysia" translatable="false">MYR</string>
+
+        
+</resources>

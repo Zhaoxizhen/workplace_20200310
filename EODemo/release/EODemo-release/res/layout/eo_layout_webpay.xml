@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/accent" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/eo_layout_webpay_top" android:background="@drawable/eo_corners_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:clickable="false" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/eo_charge" />
+            <TextView android:textSize="40.0dip" android:textColor="@color/primary" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="充值中心" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/eo_layout_webpay_usernamell" android:background="@drawable/eo_corners_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+        <ImageView android:clickable="false" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/eo_yonghu" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/primary" android:id="@id/eo_webpay_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="用戶名" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/eo_layout_webpay_payinfo" android:background="@drawable/eo_corners_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="@color/primary_text" android:id="@id/eo_webpay_uid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="UID" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/primary_text" android:id="@id/eo_webpay_servername" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="服务器" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/primary_text" android:id="@id/eo_webpay_rolename" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="角色名" />
+        <TextView android:textSize="20.0dip" android:textColor="@color/primary_text" android:id="@id/eo_webpay_rolelevel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:text="角色等级" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/eo_corners_bg" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+        <ImageView android:clickable="false" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/eo_dingwei_1" />
+        <Spinner android:id="@id/eo_webpay_area" android:background="@color/eo_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/eo_corners_bg" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+        <ImageView android:clickable="false" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/eo_money" />
+        <Spinner android:id="@id/eo_webpay_channel" android:background="@color/eo_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/eo_corners_bg" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+        <ImageView android:clickable="false" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/eo_yuanbao" />
+        <Spinner android:id="@id/eo_webpay_item" android:background="@color/eo_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/eo_corners_bg" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+        <Button android:textSize="25.0dip" android:layout_gravity="center" android:id="@id/eo_webpay_confirm" android:background="@color/eo_white" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="確認充值" />
+    </LinearLayout>
+</LinearLayout>

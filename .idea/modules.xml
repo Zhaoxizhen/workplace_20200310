@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EO-GameSDK/EO-GameSDK.iml" filepath="$PROJECT_DIR$/EO-GameSDK/EO-GameSDK.iml" group="workplace_20200310/EO-GameSDK" />
+      <module fileurl="file://$PROJECT_DIR$/EODemo/EODemo.iml" filepath="$PROJECT_DIR$/EODemo/EODemo.iml" group="workplace_20200310/EODemo" />
+      <module fileurl="file://$PROJECT_DIR$/workplace_20200310.iml" filepath="$PROJECT_DIR$/workplace_20200310.iml" group="workplace_20200310" />
+    </modules>
+  </component>
+</project>

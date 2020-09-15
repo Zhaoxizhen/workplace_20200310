@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/accent">
+
+    <LinearLayout
+        android:id="@+id/eo_layout_webpay_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/eo_corners_bg"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/eo_charge"
+                android:clickable="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/eo_voucher_center"
+                android:textColor="@color/primary"
+                android:textSize="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/eo_layout_webpay_usernamell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/eo_corners_bg"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/eo_yonghu"
+            android:clickable="false"
+            />
+        <TextView
+            android:id="@+id/eo_webpay_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/eo_account_name"
+            android:textSize="20dp"
+            android:textColor="@color/primary"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/eo_layout_webpay_payinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/eo_corners_bg"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        >
+
+
+
+        <TextView
+            android:id="@+id/eo_webpay_uid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="UID"
+            android:textSize="20dp"
+            android:textColor="@color/primary_text"
+            />
+
+        <TextView
+            android:id="@+id/eo_webpay_servername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/eo_server_name"
+            android:textSize="20dp"
+            android:textColor="@color/primary_text"/>
+
+        <TextView
+            android:id="@+id/eo_webpay_rolename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/eo_role_name"
+            android:textSize="20dp"
+            android:textColor="@color/primary_text"/>
+
+        <TextView
+            android:id="@+id/eo_webpay_rolelevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/eo_role_level"
+            android:textSize="20dp"
+            android:textColor="@color/primary_text"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/eo_corners_bg"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/eo_dingwei_1"
+            android:clickable="false"
+            />
+        <Spinner
+            android:id="@+id/eo_webpay_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/eo_white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/eo_corners_bg"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/eo_money"
+            android:clickable="false"
+            />
+        <Spinner
+            android:id="@+id/eo_webpay_channel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/eo_white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/eo_corners_bg"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/eo_yuanbao"
+            android:clickable="false"
+            />
+        <Spinner
+            android:id="@+id/eo_webpay_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/eo_white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/eo_corners_bg"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/eo_webpay_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:text="@string/eo_confirm_purchase"
+            android:textSize="25dp"
+            android:background="@color/eo_white"/>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

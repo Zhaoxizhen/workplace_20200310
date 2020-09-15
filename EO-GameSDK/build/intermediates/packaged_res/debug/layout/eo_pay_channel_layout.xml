@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/eo_pay_channel_root"
+        android:layout_width="270dp"
+        android:layout_height="250dp"
+        android:background="@drawable/eo_corners_bg"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="42"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="41"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="240"
+                    android:orientation="vertical"
+                    >
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="20" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="21"
+                        android:orientation="horizontal"
+                        >
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="25"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="100"
+                            android:src="@drawable/eo_user_center_logo"
+                            />
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="110"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="32"
+                    android:orientation="vertical"
+                    >
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10"/>
+                    <ImageView
+                        android:id="@+id/eo_pay_close_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="20"
+                        android:src="@drawable/eo_close"
+                        />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="10" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            >
+            <!--角色名称-->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="68"
+                android:text="@string/eo_role_name"
+                android:textColor="@color/eo_hight_gray_color"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:gravity="left|center_vertical"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15" />
+
+            <TextView
+                android:id="@+id/eo_pay_role_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="176"
+                android:text="测试角色01"
+                android:textColor="@color/eo_name_gray_color"
+                android:textSize="12sp"
+                android:gravity="left|center_vertical"
+                android:maxLines="1"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            >
+            <!--用户名称-->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="68"
+                android:text="@string/eo_account_name"
+                android:textColor="@color/eo_hight_gray_color"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:gravity="left|center_vertical"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15" />
+
+            <TextView
+                android:id="@+id/eo_pay_account_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="176"
+                android:text="FB98765432132343"
+                android:maxLines="1"
+                android:textColor="@color/eo_name_gray_color"
+                android:textSize="12sp"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="142"
+            android:background="@drawable/eo_pay_bottom_bg"
+            android:orientation="vertical"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="17" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="10"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                >
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="28" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1.5px"
+                    android:background="@color/eo_black"
+                    android:layout_weight="55" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="88"
+                    android:src="@drawable/eo_payment"
+                    />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1.5px"
+                    android:background="@color/eo_black"
+                    android:layout_weight="55" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="28" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="23"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="85"
+                android:orientation="horizontal"
+                >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="81" />
+
+                <LinearLayout
+                    android:id="@+id/eo_pay_google_ll"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="47"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="47"
+                        android:src="@drawable/eo_google_pay_icon"
+                        android:clickable="false"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="38"
+                        android:textColor="@color/eo_name_gray_color"
+                        android:text="Google Wallet"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:clickable="false"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="15" />
+
+                <LinearLayout
+                    android:id="@+id/eo_pay_other_ll"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="47"
+                    android:orientation="vertical"
+                    android:clickable="true"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="47"
+                        android:src="@drawable/eo_other_pay_icon"
+                        android:clickable="false"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="38"
+                        android:textColor="@color/eo_name_gray_color"
+                        android:text="MyCard"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:clickable="false"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="81" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

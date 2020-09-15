@@ -1,0 +1,137 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/eo_white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/page_main_ll_main"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/page_main_btn_init"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="init"
+            android:textSize="12dip" />
+        <Button
+            android:id="@+id/page_main_btn_update"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="更新"
+            android:textSize="12dip" />
+
+        <Button
+            android:id="@+id/page_main_btn_login"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="登录"
+            android:textSize="12dip" />
+
+        <Button
+            android:id="@+id/page_main_btn_pay"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="支付"
+            android:textSize="12dip" />
+
+        <Button
+            android:id="@+id/page_main_btn_logout"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="登出"
+            android:textSize="12dip" /> 
+
+        <!--<Button-->
+            <!--android:id="@+id/page_main_btn_float_hide"-->
+            <!--android:layout_width="100dip"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:text="关闭浮动窗"-->
+            <!--android:textSize="12dip" />-->
+
+        <Button
+            android:id="@+id/page_main_btn_open_user"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="打开用户中心"
+            android:textSize="12dip" />
+
+        <Button
+            android:id="@+id/page_main_btn_exit"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="退出"
+            android:textSize="12dip" />
+
+        <Button
+            android:id="@+id/page_main_btn_close"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="关闭"
+            android:textSize="12dip"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="150dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/page_main_btn_entry_game_log"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="提交进入游戏日志"
+            android:textSize="12dip" />
+
+        <Button
+            android:id="@+id/page_main_btn_create_role_log"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="提交创角日志"
+            android:textSize="12dip" />
+        
+        <Button
+            android:id="@+id/page_main_btn_get_userinfo"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="获取facebook好友信息"
+            android:textSize="12dip" /> 
+            
+        <Button
+            android:id="@+id/page_main_btn_share"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="facebook分享"
+            android:textSize="12dip" /> 
+            <Button
+            android:id="@+id/page_main_btn_language"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="中文"
+            android:textSize="12dip" /> 
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.crypto.tink:tink-android:1.4.0-rc1@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.crypto.tink/tink-android/1.4.0-rc1/e60b8c6f2e96b0b78312f9fa59a89272ee4fc825/tink-android-1.4.0-rc1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.crypto.tink/tink-android/1.4.0-rc1/79aeeb14899625e7fa241c8c2ccbb6d264238e57/tink-android-1.4.0-rc1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

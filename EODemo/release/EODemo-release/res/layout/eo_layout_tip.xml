@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/af_regist_phone_code_root" android:background="@color/eo_white" android:layout_width="320.0dip" android:layout_height="216.0dip">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="20.0" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/eo_black" android:gravity="center" android:id="@id/eo_layout_tips_titile" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/eo_tip" android:layout_weight="30.0" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="20.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="145.0">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="30.0" />
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="362.0">
+                <View android:background="@color/eo_hight_gray_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/eo_black" android:gravity="center" android:layout_gravity="center" android:id="@id/eo_tips_tipbody_tv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/eo_tips_guest_text" />
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="30.0" />
+        </LinearLayout>
+        <View android:id="@id/eo_layout_tips_line" android:background="@color/eo_name_gray_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="70.0">
+            <Button android:textSize="15.0sp" android:id="@id/eo_tips_cancel_bt" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/eo_layout_tip_cancel" android:layout_weight="1.0" />
+            <View android:id="@id/eo_tips_divisionbtn_vw" android:background="@color/eo_hight_gray_color" android:visibility="gone" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <Button android:textSize="15.0sp" android:id="@id/eo_tips_continue_bt" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/eo_layout_tip_conitune" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

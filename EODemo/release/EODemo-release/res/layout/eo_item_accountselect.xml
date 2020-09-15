@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="55.0" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/eo_black" android:gravity="center_vertical" android:id="@id/eo_tv_username_accountlist" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="FB123847498" android:maxLines="1" android:layout_weight="347.0" />
+    <ImageView android:layout_gravity="center" android:id="@id/eo_iv_delete_accountlist" android:layout_width="0.0dip" android:layout_height="35.0dip" android:src="@drawable/eo_close_small" android:layout_weight="48.0" />
+</LinearLayout>

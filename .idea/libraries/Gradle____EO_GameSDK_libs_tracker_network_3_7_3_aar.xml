@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./EO-GameSDK/libs/tracker-network-3.7.3.aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b1fecd378f9148121a1a81e339918fe/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b1fecd378f9148121a1a81e339918fe/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b1fecd378f9148121a1a81e339918fe/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
